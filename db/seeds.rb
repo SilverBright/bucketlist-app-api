@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+
+Idea.create(title: 'This is my first idea', body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ')
+Idea.create(title: 'This is my second idea', body: 'Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm.')
+Idea.create(title: 'This is my third idea', body: 'Caramels muffin jelly beans sweet cheesecake gummi bears danish dessert fruitcake.')
+Idea.create(title: 'This is my fourth idea', body: 'Typewriter stumptown helvetica williamsburg scenester, ugh activated charcoal deep v narwhal.') 
+Idea.create(title: 'This is my fifth idea', body: 'Vitae sequi. Sequi quia. Rem culpa yet culpa yet magna or quia, so nesciunt.') 
