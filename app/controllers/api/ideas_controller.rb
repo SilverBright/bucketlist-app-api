@@ -5,6 +5,11 @@ class Api::IdeasController < ApplicationController
     render json: @ideas
   end
 
+  def new
+    @idea = Idea.new
+  end
+
+
   def create
     @idea = Idea.new(idea_params)
     if @idea.save
