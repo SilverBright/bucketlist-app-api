@@ -9,7 +9,6 @@ class Api::IdeasController < ApplicationController
     @idea = Idea.new
   end
 
-
   def create
     @idea = Idea.new(idea_params)
     if @idea.save
@@ -36,7 +35,7 @@ class Api::IdeasController < ApplicationController
   private
 
   def idea_params
-    params.require(:idea).permit(:title, :body)
+    params.require(:idea).permit(:body)
   end
 
 end
