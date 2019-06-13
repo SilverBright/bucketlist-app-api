@@ -8,8 +8,8 @@
 
 
 
-Idea.create(id: 1, body: 'Be a Contestant on a Game Show.')
-Idea.create(id: 2, body: 'Participate in a Disneyland parade.')
-Idea.create(id: 3, body: 'Change my Name.')
-Idea.create(id: 4, body: 'Color my hair purple.') 
-Idea.create(id: 5, body: 'Write a book.') 
+Idea.create(id: 1, body: "Find a new job.")
+Idea.create(id: 2, body: "Graduate Flatiron School.")
+Idea.create(id: 3, body: "Don't Panic!") 
+Idea.create(id: 4, body: "Survive the review process.")
+
