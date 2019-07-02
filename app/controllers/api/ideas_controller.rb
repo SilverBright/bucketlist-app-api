@@ -1,6 +1,7 @@
 class Api::IdeasController < ApplicationController
 
   def index
+    # conditional to render idea.all.sort_by...
     @ideas = Idea.all 
     render json: @ideas
   end
