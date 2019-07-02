@@ -1,6 +1,7 @@
 class Api::IdeasController < ApplicationController
 
   def index
+    # conditional to render idea.all.sort_by...
     @ideas = Idea.all 
     render json: @ideas
   end
@@ -8,7 +9,6 @@ class Api::IdeasController < ApplicationController
   def new
     @idea = Idea.new
   end
-
 
   def create
     @idea = Idea.new(idea_params)
@@ -36,7 +36,7 @@ class Api::IdeasController < ApplicationController
   private
 
   def idea_params
-    params.require(:idea).permit(:title, :body)
+    params.require(:idea).permit(:body)
   end
 
 end

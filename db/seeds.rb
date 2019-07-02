@@ -8,8 +8,8 @@
 
 
 
-Idea.create(id: 1, title: 'This is my first idea', body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ')
-Idea.create(id: 2, title: 'This is my second idea', body: 'Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm.')
-Idea.create(id: 3, title: 'This is my third idea', body: 'Caramels muffin jelly beans sweet cheesecake gummi bears danish dessert fruitcake.')
-Idea.create(id: 4, title: 'This is my fourth idea', body: 'Typewriter stumptown helvetica williamsburg scenester, ugh activated charcoal deep v narwhal.') 
-Idea.create(id: 5, title: 'This is my fifth idea', body: 'Vitae sequi. Sequi quia. Rem culpa yet culpa yet magna or quia, so nesciunt.') 
+Idea.create(id: 1, body: "Find a new job.")
+Idea.create(id: 2, body: "Graduate Flatiron School.")
+Idea.create(id: 3, body: "Don't Panic!") 
+Idea.create(id: 4, body: "Survive the review process.")
+

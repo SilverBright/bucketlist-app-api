@@ -1,5 +1,5 @@
 class Idea < ApplicationRecord
 
-  validates :title, presence: true 
   validates :body, presence: true   
+  # sorting helper method
 end
