@@ -6,10 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
-
-Idea.create(id: 1, body: "Find a new job.")
-Idea.create(id: 2, body: "Graduate Flatiron School.")
-Idea.create(id: 3, body: "Don't Panic!") 
-Idea.create(id: 4, body: "Survive the review process.")
-
+Idea.create(id: 1, body: "Travel around the world.")
+Idea.create(id: 2, body: "Learn a new language.")
+Idea.create(id: 3, body: "See the pyramids") 
+Idea.create(id: 4, body: "Be a contestant on a gameshow")
+Idea.create(id: 4, body: "Run a marathon")
