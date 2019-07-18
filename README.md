@@ -1,6 +1,6 @@
-# Bucketlist Rails API (backend)
+# Bucket List Rails API (backend)
 
-Bucketlist React Client (frontend) can be found here: https://github.com/SilverBright/bucketlist-app-client
+Bucket List React Client (frontend) can be found here: https://github.com/SilverBright/bucketlist-app-client
 
 ## Installation
 
